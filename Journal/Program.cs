@@ -1,0 +1,10 @@
+﻿using Journal;
+Class1 journal1 = new Class1("Journal", 1900, "88805553535", "mail@mail.ru" );
+Console.WriteLine(journal1);
+Console.WriteLine("==================");
+journal1.Year = 2021;
+Console.WriteLine(journal1);
+Console.WriteLine("==================");
+journal1.Year = 2023;
+journal1.Email = "mailmail.ru";
+Console.WriteLine(journal1);
